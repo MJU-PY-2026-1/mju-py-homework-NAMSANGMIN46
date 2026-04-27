@@ -71,3 +71,5 @@ for member in explorers_list:
 
 print("\n관리 업무가 정상적으로 종료되었습니다. 지구로 귀환합니다.")
 print("=" * 45)
+
+
