@@ -93,7 +93,7 @@ for i in range(1,4) :
 
     explorers_list.append([name, oxygen, fuel_eff, tech_skill, survival_index, is_special])
 
-print("\n + "*" * 45)
+print("\n + "*" * 45")
 print(" [탐사대 정밀 진단 결과]")
 print("*" * 45)
 
@@ -131,8 +131,8 @@ for member in explorers_list:
     if member[1] < 20:
         print(f"!! 경고 : {member[0]} 대원 산소 부족! 시스템을 중단하고 복귀 명령을 내립니다.")
         break
-else :
-    continue
+    else :
+        continue
     
 print("\n관리 업무가 정상적으로 종료되었습니다. 지구로 귀환합니다.")
 print("=" * 45)
